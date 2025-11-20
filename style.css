@@ -1,4 +1,4 @@
-/* ======== ESTILO GERAL ======== */
+/* ESTILO GERAL */
 body {
     margin: 0;
     padding: 0;
@@ -7,11 +7,6 @@ body {
     color: #fff;
 }
 
-.container img {
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
 
 .container {
     width: 90%;
@@ -20,29 +15,29 @@ body {
     padding-top: 50px;
 }
 
-/* ======== LOGO ======== */
+/* LOGO */
 .logo {
-    width: 120px;
+    width: 190px;
     display: block;
     margin: 0 auto 20px auto;
 }
 
-/* ======== TÍTULOS ======== */
+/* TÍTULO */
 h1, h2 {
     text-align: center;
 }
 
 h1 {
-    font-size: 32px;
-    color: #D4A657;
+    font-size: 31px;
+    color: #d4a657;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 
-/* ======== BOTÕES ======== */
+/* BOTÕES */
 .btn {
     display: block;
     width: 90%;
@@ -52,22 +47,22 @@ h2 {
     border-radius: 25px;
     text-decoration: none;
     color: white;
-    border: 2px solid #D4A657;
+    border: 2px solid #d4a657;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #D4A657;
-    color: black;
+    background-color: #d4a657;
+    color:black;
 }
 
-/* ======== TEXTOS ======== */
+/* TEXTO */
 .text-block {
-    background-color: #111;
+    background-color: #d4a657;
     padding: 20px;
     border-radius: 12px;
     margin-top: 20px;
-    border-left: 5px solid #D4A657;
+    border-left: 5px solid #d4a657;
 }
 
 .text-block p {
@@ -75,39 +70,4 @@ h2 {
     font-size: 16px;
 }
 
-/* ======== FORMULÁRIO ======== */
-form {
-    margin-top: 20px;
-}
-
-input, select {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-}
-
-input[type="submit"] {
-    background-color: #D4A657;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-input[type="submit"]:hover {
-    background-color: white;
-    border: 2px solid #D4A657;
-    color: black;
-}
-
-/* ======== RODAPÉ ======== */
-.footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 14px;
-    color: #D4A657;
-}
+/* FORMULARIO */
