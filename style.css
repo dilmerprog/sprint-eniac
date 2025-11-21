@@ -110,9 +110,18 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-
 button[type="submit"]:hover {
     background-color: white;
     border:2px solid #d4a657;
     color: black
+}
+
+
+/* com defeito AJUSTAR */
+/* RODAPÉ */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #D4A657;
 }
