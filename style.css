@@ -113,11 +113,9 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: white;
     border:2px solid #d4a657;
-    color: black
+    color: black;
 }
 
-
-/* com defeito AJUSTAR */
 /* RODAPÉ */
 .footer {
     margin-top: 40px;
