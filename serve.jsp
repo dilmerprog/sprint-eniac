@@ -24,7 +24,7 @@
 
     String sql = "INSERT INTO presenca (nome, data) VALUES (?, ?)";
 
-    PreparedStatement stm = conexao.prepareStatement (sql);
+    PreparedStatement stm = conexao.prepareStatement(sql);
     stm.setString(1, vnome);
     stm.setString(2, vdata);
 
