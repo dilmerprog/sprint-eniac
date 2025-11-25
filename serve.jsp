@@ -10,7 +10,7 @@
     String senha = "enserir senha falta ainda";
 
 //Driver
-    String driver = "com.mysql.cj.jdbc.Driver";
+    String driver = "com.mysql.jdbc.Driver";
 
 
 %>
