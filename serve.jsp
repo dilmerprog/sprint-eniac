@@ -1,4 +1,6 @@
 <%@page language="java" import="java.sql.*" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <%
 //Variáveis para armazenamneto de dados do formulário
     String vnome = request.getParameter("txtnome");
@@ -29,8 +31,29 @@
     stm.setString(2, vdata);
 
     stm.execute();
-
-    out.print("<h3>Dados salvas com sucesso!</h3>");
-    out.print("<br>");
-    out.print("<a href='home.html'>Voltar para home</a>");
 %>
+
+<!-- A PARTIR DAQUI E CODIGO HTML NORMAL FORMATADO -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadrastrado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img src="img/logo.png" alt="logo" class="logo">
+        <h1>Cadastro Realizado com Sucesso!</h1>
+
+        <div class="text-block">
+            <p>Obrigado por se voluntariar para ajudar na limpeza da Casa de Deus. Sua dedicação é muito importante para nós!</p>
+        </div>
+
+        <a href="home.html" class="btn">Voltar para a página inicial</a>
+
+        <div class="footer">@ 2025 - Casa de Deus</div>
+    </div>    
+</body>
+</html>
